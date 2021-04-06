@@ -1,5 +1,3 @@
-# Create MERN application 
-
 ## Environment set up
 ``` bash
 # install express
