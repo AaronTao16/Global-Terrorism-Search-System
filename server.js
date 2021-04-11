@@ -6,11 +6,11 @@ dotenv.config();
 const bodyParser = require('body-parser');
 const mongoDBGTDRouter = require("./routes/mongoDB/GTD.js");
 
-// support parsing of application/json type post data
-app.use(bodyParser.json());
+// // support parsing of application/json type post data
+// app.use(bodyParser.json());
 
-//support parsing of application/x-www-form-urlencoded post data
-app.use(bodyParser.urlencoded({ extended: true }));
+// //support parsing of application/x-www-form-urlencoded post data
+// app.use(bodyParser.urlencoded({ extended: true }));
 
 // connect to mongDB
 const mongoDB = process.env.DATABASE_URL;
